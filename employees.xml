@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee>
+    <id>101</id>
+    <name>Rahul Sharma</name>
+    <department>IT</department>
+    <designation>Software Developer</designation>
+    <email>rahul@example.com</email>
+    <salary>45000</salary>
+  </employee>
+  <employee>
+    <id>102</id>
+    <name>Priya Verma</name>
+    <department>HR</department>
+    <designation>HR Executive</designation>
+    <email>priya@example.com</email>
+    <salary>38000</salary>
+  </employee>
+  <employee>
+    <id>103</id>
+    <name>Amit Kumar</name>
+    <department>Finance</department>
+    <designation>Accountant</designation>
+    <email>amit@example.com</email>
+    <salary>42000</salary>
+  </employee>
+  <employee>
+    <id>104</id>
+    <name>Sneha Reddy</name>
+    <department>Marketing</department>
+    <designation>Marketing Executive</designation>
+    <email>sneha@example.com</email>
+    <salary>40000</salary>
+  </employee>
+  <employee>
+    <id>105</id>
+    <name>Arjun Patel</name>
+    <department>IT</department>
+    <designation>System Analyst</designation>
+    <email>arjun@example.com</email>
+    <salary>50000</salary>
+  </employee>
+</employees>
