@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Information | LAB 9</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="page-header">
+      <div>
+        <p class="eyebrow">WEB PROGRAMMING · LAB 09</p>
+        <h1>Employee Information</h1>
+        <p class="subtitle">Read employee records from an XML file and display them in a table.</p>
+      </div>
+      <span class="xml-badge">XML DATA</span>
+    </header>
+
+    <section class="panel">
+      <div class="panel-heading">
+        <div>
+          <h2>Employee Records</h2>
+          <p id="status" class="status" role="status">Loading employee data…</p>
+        </div>
+        <label class="search-box" for="searchInput">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="Search employees…" disabled>
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Employee ID</th>
+              <th>Name</th>
+              <th>Department</th>
+              <th>Designation</th>
+              <th>Email</th>
+              <th>Salary (₹)</th>
+            </tr>
+          </thead>
+          <tbody id="employeeTable">
+            <tr><td colspan="6" class="empty">Fetching data from employees.xml…</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="panel-footer"><span id="recordCount">0 employees</span><span>Source: employees.xml</span></div>
+    </section>
+    <footer>LAB 9 · XML data is loaded using JavaScript Fetch API and DOMParser.</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
